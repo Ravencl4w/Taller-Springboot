@@ -5,4 +5,5 @@ import Taller.example.models.Plans;
 
 public interface PlansRepository extends JpaRepository<Plans, Long> {
     
+    
 }
