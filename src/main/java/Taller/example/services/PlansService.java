@@ -31,4 +31,10 @@ public class PlansService {
    public Optional<Plans> findById (Long id) {
     return plansRepository.findById(id);
    }
+   public Plans getId(Long id) {
+    return plansRepository.getById(id);
+   }
+
+
+
 }
